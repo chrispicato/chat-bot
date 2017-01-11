@@ -3,7 +3,14 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <h1>Hello, world.</h1>
+      <div>
+        <div>
+          <h1>Chat view goes here</h1>
+        </div>
+        <div>
+          <h1>User input goes here</h1>
+        </div>
+      </div>
     );
   }
 }
